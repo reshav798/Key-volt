@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    font-family: poppins;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    color: #433737;
+}
+body{
+    background-color: #c4c4c4;
+}
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    position: fixed;
+    height: 5.5rem;
+    width: 100%;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    background-color: rgb(255, 255, 255);
+}
+.logo{
+    margin-right: 5rem;
+}
+#arjest{
+    align-self: center;
+    text-align: center;
+    height:16rem;
+    width: 15rem;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-left: 14.5rem;
+}
+#input{
+    height: 3rem;
+    width:38.1rem;
+    background-color: #c4c4c4;
+    color: #433737;
+    font-size:1.5rem;
+    padding: 1px 4rem;
+    border-top-right-radius:18.5px;
+    border-bottom-left-radius:18.5px;
+    border-bottom-right-radius:18.5px;
+    border-top-left-radius:18.5px;
+}
+
+.sicon{
+    position:absolute;
+    height: 3.4rem;
+    width: 3.4rem;
+    margin-right: 34.5rem;
+    text-align: center;
+}
+.cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    color: #433737;
+    font-size: 1.5rem;
+    position: absolute;
+    margin-left: 61rem;
+    cursor: pointer;
+}
+.cicon{
+    text-align: center;
+    height: 3rem;
+    width: 5rem;
+}
+#pera{
+    position: absolute;
+    margin-left: 5rem;
+    text-align: center;
+}
+.more{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+ margin-left: 49rem; 
+ cursor: pointer;
+}
+#align{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.dropdown{
+    height: 2rem;
+    width: 2rem;
+    margin-top: 0.4rem;
+    font-weight: 500;
+    text-align: center;
+}
+.dots{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #433737;
+    margin-left: rem; 
+}
+.icondots{
+    height: 2rem;
+    width: 0.5;
+    color: #433737;
+}
+#contaner{
+    display: flex;
+    justify-self:center;
+    align-items: center;
+    position:absolute;
+    margin-top: 8rem;
+    height: 20rem;
+    width: 100%;
+    background-color: white;
+    gap: 14rem;
+}
+.volt{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-family: "Bruno Ace", sans-serif;
+}
+.font{
+    font-family: "Bruno Ace", sans-serif;
+}
+  
